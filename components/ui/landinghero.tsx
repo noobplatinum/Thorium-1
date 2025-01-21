@@ -28,7 +28,7 @@ const LandingHero = () => {
                     <p>Create with Thorium-1</p>
             </div>
             <div>
-                <Link href={isSignedIn ? "/dashboard" : "/signup"}>
+                <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
                     <Button variant="premium" className="md:text-lg p-4 md:p-6 font-semibold rounded-full max-w-xs mx-auto">
                         Start Your Experience
                     </Button>
